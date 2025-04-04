@@ -1,0 +1,11 @@
+com/todoapp/service/impl/ProjectServiceImplTest.class
+com/todoapp/integration/CorsIntegrationTest.class
+com/todoapp/controller/RoleControllerTest.class
+com/todoapp/controller/TodoControllerTest.class
+com/todoapp/config/TestConfig.class
+com/todoapp/integration/UserRegistrationIntegrationTest.class
+com/todoapp/service/impl/RoleServiceImplTest.class
+com/todoapp/repository/TodoRepositoryIntegrationTest.class
+com/todoapp/controller/UserControllerTest.class
+com/todoapp/service/impl/TodoServiceImplTest.class
+com/todoapp/service/impl/UserServiceImplTest.class

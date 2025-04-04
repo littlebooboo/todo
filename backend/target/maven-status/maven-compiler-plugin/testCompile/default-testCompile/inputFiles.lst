@@ -1,0 +1,11 @@
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/controller/UserControllerTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/service/impl/TodoServiceImplTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/service/impl/ProjectServiceImplTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/integration/UserRegistrationIntegrationTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/controller/RoleControllerTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/service/impl/UserServiceImplTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/repository/TodoRepositoryIntegrationTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/integration/CorsIntegrationTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/config/TestConfig.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/service/impl/RoleServiceImplTest.java
+/Users/stager/dev/todo-app/backend/src/test/java/com/todoapp/controller/TodoControllerTest.java

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.todoapp.integration.CorsIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in com.todoapp.integration.CorsIntegrationTest
+corsActualRequest_AllowedOrigin  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.todoapp.integration.CorsIntegrationTest.corsActualRequest_AllowedOrigin(CorsIntegrationTest.java:48)
+
+corsPreflight_AllowedOrigin  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.todoapp.integration.CorsIntegrationTest.corsPreflight_AllowedOrigin(CorsIntegrationTest.java:27)
+

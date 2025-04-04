@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.todoapp.integration.UserRegistrationIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.746 s <<< FAILURE! - in com.todoapp.integration.UserRegistrationIntegrationTest
+registerUser_DuplicateUsername  Time elapsed: 0.076 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fk9605g76a1dggbvs18f2r80gvu]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: update or delete on table "users" violates foreign key constraint "fk9605g76a1dggbvs18f2r80gvu" on table "todos"
+  Detail: Key (id)=(1) is still referenced from table "todos".
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+
+registerUser_Success  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fk9605g76a1dggbvs18f2r80gvu]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: update or delete on table "users" violates foreign key constraint "fk9605g76a1dggbvs18f2r80gvu" on table "todos"
+  Detail: Key (id)=(1) is still referenced from table "todos".
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+
+registerUser_InvalidEmail  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fk9605g76a1dggbvs18f2r80gvu]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: update or delete on table "users" violates foreign key constraint "fk9605g76a1dggbvs18f2r80gvu" on table "todos"
+  Detail: Key (id)=(1) is still referenced from table "todos".
+	at com.todoapp.integration.UserRegistrationIntegrationTest.setUp(UserRegistrationIntegrationTest.java:47)
+
